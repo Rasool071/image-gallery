@@ -1,0 +1,46 @@
+* {
+    background-color: #F6CDF7;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.header-1 {
+    justify-content: center;
+    padding-left: 500px;
+    border-bottom: solid gray 5px;
+    width: 50%;
+}
+
+.images {
+    padding: 20px;
+}
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.content_image {
+    width: 400px;
+}
+
+.content img {
+    border: solid black 4px;
+    padding:  2 px;
+    height: 300px;
+    width: 300px;
+}
